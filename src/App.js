@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import CalculatorDisplay from './Components/CalculatorDisplay';
 import * as math from 'mathjs'
-import update from 'react-addons-update'; 
+import update from 'react-addons-update';
 
 
 
@@ -51,7 +51,7 @@ class App extends Component {
 
     const { operations } = this.state;
     return (
-      <div className="App">
+      <div>
         <CalculatorDisplay handleClick={this.handleClick} data={operations} />
       </div>
     );

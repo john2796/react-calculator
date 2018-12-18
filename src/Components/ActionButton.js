@@ -8,6 +8,7 @@ padding: 20px 0;
 width:100%;
 display: flex;
 max-width: 505px;
+z-index: 9;
 span {
 
 width: 100%;
