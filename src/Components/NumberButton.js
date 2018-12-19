@@ -2,6 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 
 
+
 const NumberWrapper = styled.div`
 
 
@@ -9,7 +10,7 @@ const NumberWrapper = styled.div`
 
 `
 
-const NumberButton = ({ label, onClick, size, value, className }) => {
+const NumberButton = ({ text, onClick, size, value, className }) => {
   return (
     <NumberWrapper className="buttons">
       <div
@@ -18,7 +19,7 @@ const NumberButton = ({ label, onClick, size, value, className }) => {
         data-value={value}
         className={className}
       >
-        {label}
+        {text}
       </div>
     </NumberWrapper>
   );

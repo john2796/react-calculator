@@ -74,32 +74,32 @@ const CalculatorDisplay = ({ data, handleClick }) => {
       <ActionButton data={data} />
       <div className="flex__parent">
         <div className="num__flex">
-          <NumberButton onClick={handleClick} className="num clear" label="clear" value="clear" />
+          <NumberButton onClick={handleClick} className="num clear" text="clear" value="clear" />
           <div className="middle__flex">
             <div className="flex__item">
-              <NumberButton onClick={handleClick} className="num" label="7" value="7" />
-              <NumberButton onClick={handleClick} className="num" label="8" value="8" />
-              <NumberButton onClick={handleClick} className="num" label="9" value="9" />
+              <NumberButton onClick={handleClick} className="num" text="7" value="7" />
+              <NumberButton onClick={handleClick} className="num" text="8" value="8" />
+              <NumberButton onClick={handleClick} className="num" text="9" value="9" />
             </div>
             <div className="flex__item">
-              <NumberButton onClick={handleClick} className="num" label="4" value="4" />
-              <NumberButton onClick={handleClick} className="num" label="5" value="5" />
-              <NumberButton onClick={handleClick} className="num" label="6" value="6" />
+              <NumberButton onClick={handleClick} className="num" text="4" value="4" />
+              <NumberButton onClick={handleClick} className="num" text="5" value="5" />
+              <NumberButton onClick={handleClick} className="num" text="6" value="6" />
             </div>
             <div className="flex__item">
-              <NumberButton onClick={handleClick} className="num" label="1" value="1" />
-              <NumberButton onClick={handleClick} className="num" label="2" value="2" />
-              <NumberButton onClick={handleClick} className="num" label="3" value="3" />
+              <NumberButton onClick={handleClick} className="num" text="1" value="1" />
+              <NumberButton onClick={handleClick} className="num" text="2" value="2" />
+              <NumberButton onClick={handleClick} className="num" text="3" value="3" />
             </div>
           </div>
-          <NumberButton onClick={handleClick} className="num clear" label="0" value="0" />
+          <NumberButton onClick={handleClick} className="num clear" text="0" value="0" />
         </div>
         <div className="operator__flex">
-          <NumberButton onClick={handleClick} className="num" label="/" value="/" />
-          <NumberButton onClick={handleClick} className="num" label="x" value="*" />
-          <NumberButton onClick={handleClick} className="num" label="-" value="-" />
-          <NumberButton onClick={handleClick} className="num" label="+" size="2" value="+" />
-          <NumberButton onClick={handleClick} className="num" label="=" size="2" value="equal" />
+          <NumberButton onClick={handleClick} className="num" text="/" value="/" />
+          <NumberButton onClick={handleClick} className="num" text="x" value="*" />
+          <NumberButton onClick={handleClick} className="num" text="-" value="-" />
+          <NumberButton onClick={handleClick} className="num" text="+" size="2" value="+" />
+          <NumberButton onClick={handleClick} className="num" text="=" size="2" value="equal" />
         </div>
       </div>
     </CalculatorWrapper >
