@@ -16,6 +16,7 @@ class App extends Component {
 
   handleClick = e => {
     const value = e.target.getAttribute('data-value');
+    console.log(value);
     switch (value) {
       case 'clear':
         this.setState({ operations: [] });
